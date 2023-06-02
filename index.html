@@ -10,10 +10,6 @@
 	<meta name="format-detection" content="telephone=no">
 	<meta name="theme-color" content="#f4753b">
 
-	<link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="assets/ico/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="assets/ico/favicon-16x16.png" sizes="16x16">
-	<link rel="shortcut icon" href="assets/ico/favicon.ico">
 	<link rel="stylesheet" href="assets/css/font-awesome.css" type="text/css">
 	<link rel="stylesheet" href="assets/css/animate.css" type="text/css">
 	<link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
@@ -241,7 +237,7 @@
   
 	
 <a href="javascript:void(0);" id="slide_top"></a>
-<a href="cotizador/index.htm" class="solicitud">Cotizador de p&oacute;liza</a>
+<a href="cotizador/index.html" class="solicitud">Cotizador de p&oacute;liza</a>
 	
 <footer class="pd-v-xlg">
 		<div class="container">
@@ -292,8 +288,33 @@
 
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/sidebar.js"></script>
-	<script src="assets/js/modal.js"></script>
-	<script src="assets/js/scroll.js"></script>
+	<script type="text/javascript">
+   
+		$(window).load(function(){
+			$('#modal-avisos').modal('show');
+		});
+	
+	  </script>	
+	
+	
+	<script type="text/javascript">
+		
+		$(function(){
+
+			$(window).scroll(function(){
+				if ($(window).width()>900) {
+					var value = $(this).scrollTop();
+					if (value>100) {
+						$('body').addClass('header-small');
+					} else {
+						$('body').removeClass('header-small');
+					}
+				}
+			});
+			$(window).scroll();
+
+		});
+</script>
 
  	<script type="text/javascript">
     
