@@ -1,0 +1,105 @@
+		.contact_widget_phone > span,
+		.contact_widget_email > span {width: 1%;}
+
+		#box_color_1 {background-color: #56cce1;}
+		#box_color_2 {background-color: #2cbfd9;}
+		#box_color_3 {background-color: #2ca6d9;}
+		#box_color_4 {background-color: #00BBBB;}
+		
+		#middle_content .content_icon:before{color:#2cbfd9;}
+		.content_icon.icon-glyph-2:before{color:#2ca6d9;}
+		.content_icon.icon-glyph-3:before{color:#2cbfd9;}
+		.content_icon.icon-glyph-4:before{color:#2ca6d9;}
+		.content_icon.icon-glyph-5:before{color:#2cbfd9;}
+
+		#text-2 .textwidget h1,
+		#text-2 .textwidget h4 {
+			text-align:center;
+		}
+		#text-2 .textwidget h1 {color:#00BBBB;}
+		#text-2 .textwidget h4 {color:#898989;}
+
+		.post.type-post.one_fourth .cmsms_post_type_img > img {
+			width:130px; 
+			height:130px;
+		}
+
+		.type-testimonial img.cmsms_img {
+			width:60px; 
+			height:60px;
+		}
+
+		.textwidget #pb_35 {padding-bottom:35px;}
+
+		#navigation li:last-child {
+			border-right: 0;
+		}
+
+		
+		.button_widget:hover {
+			text-decoration: underline;
+		}
+
+	 	#fianzas-netheader .logo-fyc {
+		   	 display: block;
+		   	 width: 100%;
+		   	 height: 45px;
+		   	 background: url(assets/images/logo_gray.svg) right center no-repeat;
+		    	background-size: contain;
+			}
+
+		#fianzas-netheader  .logo {
+		    display: block;
+		    width: 100%;
+		    height: 45px;
+		    background: url(assets/images/logo_CwinNet.svg) left center no-repeat;
+		    background-size: contain;
+		}
+		.full{
+			margin: 0px; 
+			height: auto;
+		}
+		#cwin-sidebar .sidebar-content .logo {
+	  	  width: 200px;
+	  	  height: 30px;
+	  	  padding: 5px 0;
+	  	  background: url(assets/images/logo_CwinNet.svg) left center no-repeat;
+	  	  background-size: contain;
+		}
+
+		#moodys.refactory {
+			background-image: url('assets/images/home-bg-monio.png') !important;
+			background-repeat: repeat-x !important;
+		}
+
+		#moodys.refactory .box-separador {
+			margin-bottom: 1.6em !important;
+		}
+
+		#moodys.refactory .box-monio {
+			padding-bottom: 1.2em !important;
+		}
+
+		#moodys.refactory .box-logo {
+			background-color:#fdfcfb !important;
+			min-height:90px !important;
+			line-height:90px !important;
+		}
+
+		#moodys.refactory .box-cuerpo {
+			background-color:#dcf1f7 !important;
+			min-height:125px !important;
+			line-height: 125px !important;
+		}
+
+		#moodys.refactory .box-cuerpo > span {
+			font-size: 16px !important;
+			line-height:1.5em !important;
+		}
+
+		#moodys.refactory .box-cuerpo .vcenter {
+		    display: inline-block;
+		    vertical-align: middle;
+		    float: none;
+		}
+

@@ -1,0 +1,154 @@
+﻿<!doctype html>
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Cotizador de póliza - Cwin Broker de Seguros</title>
+    
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="../css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="assets/dist/css/estilos.css" rel="stylesheet">
+    
+  </head>
+  <body class="d-flex flex-column h-100">
+    <header>
+      
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+          <a href="../index.htm" class="text-uppercase"><img src="img/volver.svg" class="me-2"> Volver<span class="d-none d-md-inline"> al sitio web</span></a>
+          </div>
+        
+      </nav>
+    </header>
+   
+    <main class="flex-shrink-0">
+<h3 class="titulo fw-bold text-uppercase mb-5"><span>Solicitud Cotización de p&oacute;liza</span></h3>
+<div class="bg-rosa py-3 mb-2">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <div class="iconos">
+          <div class="activo">
+            <img src="img/icono1-nar.svg" class="iconoactivo">
+            <img src="img/icono1.svg" class="iconoinactivo">
+            <div>Paso 1</div>
+          </div>
+          <div class="">
+            <img src="img/icono2-nar.svg" class="iconoactivo">
+            <img src="img/icono2.svg" class="iconoinactivo">
+            <div>Paso 2</div>
+          </div>
+          <div class="">
+            <img src="img/icono3-nar.svg" class="iconoactivo">
+            <img src="img/icono3.svg" class="iconoinactivo">
+            <div>Paso 3</div>
+          </div>
+          <div class="">
+            <img src="img/icono4-nar.svg" class="iconoactivo">
+            <img src="img/icono4.svg" class="iconoinactivo">
+            <div>Paso 4</div>
+          </div>
+          <div class="">
+            <img src="img/icono5-nar.svg" class="iconoactivo">
+            <img src="img/icono5.svg" class="iconoinactivo">
+            <div>Paso 5</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="form-container">
+  <div class="form-group">
+    <label for="razon_social">Razón Social:</label>
+    <input type="text" id="razon_social">
+  </div>
+
+  <div class="form-group">
+    <label for="obra">Obra:</label>
+    <input type="text" id="obra">
+  </div>
+
+  <div class="form-group">
+    <label for="tipo_seguro">Tipo de Seguro:</label>
+    <select id="tipo_seguro">
+      <option value="mantenimiento">Mantenimiento de Oferta</option>
+      <option value="ejecucion">Ejecución de Contrato</option>
+      <option value="anticipo">Anticipo Financiero</option>
+      <option value="fondo_reparo">Fondo de Reparo</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="suma_asegurada">Suma Asegurada:</label>
+    <input type="text" id="suma_asegurada">
+  </div>
+
+  <div class="form-group">
+    <label for="fecha">Fecha de Entrada en Vigencia:</label>
+    <input type="date" id="fecha">
+  </div>
+
+<br>
+<div id="resultado" style="display: none;"></div>
+<br>
+<div>
+  <button id="calcularBtn">Guardar Cotización</button>
+</div>
+
+
+<br>
+<div>
+  <button id="historialBtn">Ver Historial</button>
+</div>
+<br>
+<div id="historial" style="display: none;"></div>
+</div>
+<br>
+  <div class="bg-rosa py-3 mb-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <input type="button" class="btn btn-naranja-outline px-5" value="DESEA COVERTIR A UVI UNA OBRA??" onclick="redireccionar()">
+        </div>
+      </div>
+    </div>
+  </div>
+    </main>
+    <footer class="footer mt-auto py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="mb-3">
+              <p class="large font-8 color-gl mg-lg-b">
+                Santiago del Estero <br> La Banda | CP 4300 <br>
+                <a class="color-gl" href="tel:+54 385 493 5947">Tel +54 385 493 5947</a><br>
+                <a class="color-gl" href="mailto:manuel@cwin.com.ar">manuel@cwin.com.ar</a>
+              </p>
+            </div>
+            <div class="d-flex align-items-center mb-3">
+              <div class="pe-3"><img src="img/ssn.png" class="ssn"></div>
+              <div>Servicio telef&oacute;nico de la Superintendencia de Seguros de La Naci&oacute;n 4338 4000 o 0800 666 8400 - web: ssn.gob.ar</div>
+            </div>
+          </div>
+          <div class="col-lg-2 medio">
+          </div>
+          <div class="col-lg-1">
+          </div>
+          <div class="col-lg-5 derecha">
+            <p class="color-gl tabulated-text">
+            <br><br><br>
+              Manuel Lus / PRODUCTOR ASESOR DE SEGUROS - Matricula Profesional Nro 97070 <br>
+              Registro de la Superintendencia de Seguros de la Nación.
+              
+          </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/dist/js/cotizador.js"></script>
+  </body>
+</html>
