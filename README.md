@@ -1,4 +1,4 @@
-<h1># 3ª PreEntrega JavaScript</h1>
+<h1># Entrega Final JavaScript</h1>
 <p>Comisión: 39510</p>
 <br>
 <p>Alumno: Manuel Lus</p>
